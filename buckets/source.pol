@@ -1,0 +1,16 @@
+#SOURCE: Bucket policy set up in the source AWS account.
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "DelegateS3Access",
+            "Effect": "Allow",
+            "Principal": {"AWS": "454901754926"},
+            "Action": ["s3:ListBucket","s3:GetObject"],
+            "Resource": [
+                "arn:aws:s3:::sourcebucket/*",
+                "arn:aws:s3:::sourcebucket"
+            ]
+        }
+    ]
+}
