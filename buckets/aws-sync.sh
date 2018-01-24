@@ -1,1 +1,0 @@
-aws s3 sync s3://sourcebucket s3://destinationbucket

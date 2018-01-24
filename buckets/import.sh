@@ -1,8 +1,4 @@
-#!/usr/bin/env bash
-
-LAMBDA_BUCKET="sdpf-webapp"
-# change this ENV variable depending on the environment you want to deploy
-ENV="dev"
-STACK_NAME="aws-lambda-cf-environments-${ENV}"
-
-aws cloudformation deploy --template-file cfn.packaged.yml --stack-name ${STACK_NAME} --capabilities CAPABILITY_IAM --parameter-overrides Env=${ENV}
+aws s3api list-buckets --query "Buckets[].Name" > buckets.json
+jq -r '.[]' buckets.json | while read i; do
+	aws s3 sync $i s3://$i 
+done
