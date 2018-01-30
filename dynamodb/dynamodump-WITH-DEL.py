@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 """
     Simple backup and restore script for Amazon DynamoDB using boto to work similarly to mysqldump.
 
@@ -332,7 +333,7 @@ def change_prefix(source_table_name, source_wildcard, destination_wildcard, sepa
             return destination_prefix + re.sub(r"([A-Z])", r" \1", source_table_name)\
                 .split(" ", 1)[1].replace(" ", "")
     if source_table_name.split(separator, 1)[0] == source_prefix:
-        return destination_prefix #+ separator + source_table_name.split(separator, 1)[1]
+        return destination_prefix + separator + source_table_name.split(separator, 1)[1]
 
 
 #def delete_table(conn, sleep_interval, table_name):
