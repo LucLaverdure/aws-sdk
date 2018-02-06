@@ -1,0 +1,20 @@
+#aws iam get-account-authorization-details > output.json
+#aws iam generate-credential-report
+#aws iam get-credential-report
+
+aws iam list-users > users.json
+
+# for each user
+#aws iam create-user
+#aws iam create-login-profile
+#aws iam create-access-key
+
+aws iam list-groups > groups.json #has all group names
+aws iam get-group --group-name X > Y.json #has users of group
+
+#aws iam create-group
+#aws iam add-user-to-group
+
+aws iam list-policies > policies.json
+#aws iam create-policy
+#aws iam attach-user-policy

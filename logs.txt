@@ -1,0 +1,269 @@
+./import.sh 
+INFO:root:Adding SiteA-Devices
+INFO:root:Adding SiteA-Locations
+INFO:root:Adding SiteA-Metrics-Daily
+INFO:root:Adding SiteA-Metrics-Hourly
+INFO:root:Adding SiteA-Metrics-Monthly
+INFO:root:Adding SiteA-Metrics-Weekly
+INFO:root:Adding SiteA-Visits
+INFO:root:Adding SiteA-Zones
+INFO:root:Adding Sites
+INFO:root:Adding peopleflow_in
+INFO:root:Found 10 table(s) in DynamoDB host to be deleted: SiteA-Devices, SiteA-Locations, SiteA-Metrics-Daily, SiteA-Metrics-Hourly, SiteA-Metrics-Monthly, SiteA-Metrics-Weekly, SiteA-Visits, SiteA-Zones, Sites, peopleflow_in
+INFO:root:SiteA-Devices table is being deleted..
+INFO:root:SiteA-Locations table is being deleted..
+INFO:root:SiteA-Metrics-Daily table is being deleted..
+INFO:root:SiteA-Metrics-Hourly table is being deleted..
+INFO:root:SiteA-Metrics-Monthly table is being deleted..
+INFO:root:SiteA-Metrics-Weekly table is being deleted..
+INFO:root:SiteA-Visits table is being deleted..
+INFO:root:SiteA-Zones table is being deleted..
+INFO:root:Sites table is being deleted..
+INFO:root:peopleflow_in table is being deleted..
+INFO:root:SiteA-Devices table deleted!
+INFO:root:SiteA-Locations table deleted!
+INFO:root:SiteA-Metrics-Daily table deleted!
+INFO:root:SiteA-Metrics-Hourly table deleted!
+INFO:root:SiteA-Metrics-Monthly table deleted!
+INFO:root:SiteA-Metrics-Weekly table deleted!
+INFO:root:SiteA-Visits table deleted!
+INFO:root:SiteA-Zones table deleted!
+INFO:root:Sites table deleted!
+INFO:root:peopleflow_in table deleted!
+INFO:root:Found 9 table(s) in dump to restore: SiteA-Metrics-Daily, SiteA-Metrics-Weekly, SiteA-Zones, SiteA-Metrics-Monthly, SiteA-Devices, SiteA-Locations, Sites, SiteA-Metrics-Hourly, SiteA-Visits
+INFO:root:Starting restore for SiteA-Metrics-Daily to SiteA-Metrics-Daily..
+INFO:root:Creating SiteA-Metrics-Daily table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Metrics-Daily table to be created.. [CREATING]
+INFO:root:Starting restore for SiteA-Metrics-Weekly to SiteA-Metrics-Weekly..
+INFO:root:Creating SiteA-Metrics-Weekly table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Metrics-Weekly table to be created.. [CREATING]
+INFO:root:Starting restore for SiteA-Zones to SiteA-Zones..
+INFO:root:Creating SiteA-Zones table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Zones table to be created.. [CREATING]
+INFO:root:Starting restore for SiteA-Metrics-Monthly to SiteA-Metrics-Monthly..
+INFO:root:Creating SiteA-Metrics-Monthly table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Metrics-Monthly table to be created.. [CREATING]
+INFO:root:Starting restore for SiteA-Devices to SiteA-Devices..
+INFO:root:Creating SiteA-Devices table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Devices table to be created.. [CREATING]
+INFO:root:Starting restore for SiteA-Locations to SiteA-Locations..
+INFO:root:Creating SiteA-Locations table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Locations table to be created.. [CREATING]
+INFO:root:Starting restore for Sites to Sites..
+INFO:root:Creating Sites table with temp write capacity of 25
+INFO:root:Waiting for Sites table to be created.. [CREATING]
+INFO:root:Starting restore for SiteA-Metrics-Hourly to SiteA-Metrics-Hourly..
+INFO:root:Creating SiteA-Metrics-Hourly table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Metrics-Hourly table to be created.. [CREATING]
+INFO:root:Starting restore for SiteA-Visits to SiteA-Visits..
+INFO:root:Creating SiteA-Visits table with temp write capacity of 25
+INFO:root:Waiting for SiteA-Visits table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Metrics-Daily table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Metrics-Weekly table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Zones table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Metrics-Monthly table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Devices table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Locations table to be created.. [CREATING]
+INFO:root:Waiting for Sites table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Metrics-Hourly table to be created.. [CREATING]
+INFO:root:Waiting for SiteA-Visits table to be created.. [CREATING]
+INFO:root:SiteA-Metrics-Daily created.
+INFO:root:Restoring data for SiteA-Metrics-Daily table..
+INFO:root:Processing 0001.json of SiteA-Metrics-Daily
+INFO:root:SiteA-Metrics-Weekly created.
+INFO:root:Restoring data for SiteA-Metrics-Weekly table..
+INFO:root:Processing 0001.json of SiteA-Metrics-Weekly
+INFO:root:Updating SiteA-Metrics-Daily table read capacity to: 6, write capacity to: 5
+INFO:root:Waiting for SiteA-Metrics-Daily table to be active.. [UPDATING]
+INFO:root:Updating SiteA-Metrics-Weekly table read capacity to: 5, write capacity to: 5
+INFO:root:Waiting for SiteA-Metrics-Weekly table to be active.. [UPDATING]
+INFO:root:SiteA-Zones created.
+INFO:root:Restoring data for SiteA-Zones table..
+INFO:root:Processing 0001.json of SiteA-Zones
+INFO:root:Updating SiteA-Zones table read capacity to: 5, write capacity to: 5
+INFO:root:Waiting for SiteA-Zones table to be active.. [UPDATING]
+INFO:root:SiteA-Metrics-Monthly created.
+INFO:root:Restoring data for SiteA-Metrics-Monthly table..
+INFO:root:Processing 0001.json of SiteA-Metrics-Monthly
+INFO:root:Updating SiteA-Metrics-Monthly table read capacity to: 5, write capacity to: 5
+INFO:root:Waiting for SiteA-Metrics-Monthly table to be active.. [UPDATING]
+INFO:root:SiteA-Devices created.
+INFO:root:Restoring data for SiteA-Devices table..
+INFO:root:Processing 0001.json of SiteA-Devices
+INFO:root:SiteA-Locations created.
+INFO:root:Restoring data for SiteA-Locations table..
+INFO:root:Processing 0001.json of SiteA-Locations
+INFO:root:Sites created.
+INFO:root:Restoring data for Sites table..
+INFO:root:Processing 0001.json of Sites
+INFO:root:Updating Sites table read capacity to: 5, write capacity to: 5
+INFO:root:Waiting for Sites table to be active.. [UPDATING]
+INFO:root:SiteA-Metrics-Hourly created.
+INFO:root:Restoring data for SiteA-Metrics-Hourly table..
+INFO:root:Processing 0001.json of SiteA-Metrics-Hourly
+INFO:root:Updating SiteA-Devices table read capacity to: 5, write capacity to: 5
+INFO:root:Waiting for SiteA-Devices table to be active.. [UPDATING]
+INFO:root:SiteA-Visits created.
+INFO:root:Restoring data for SiteA-Visits table..
+INFO:root:Processing 0001.json of SiteA-Visits
+INFO:root:Waiting for SiteA-Metrics-Daily table to be active.. [UPDATING]
+INFO:root:Waiting for SiteA-Metrics-Weekly table to be active.. [UPDATING]
+INFO:root:SiteA-Zones active.
+INFO:root:Restore for SiteA-Zones to SiteA-Zones table completed. Time taken: 0:00:53
+INFO:root:SiteA-Metrics-Monthly active.
+INFO:root:Restore for SiteA-Metrics-Monthly to SiteA-Metrics-Monthly table completed. Time taken: 0:00:54
+INFO:root:Waiting for Sites table to be active.. [UPDATING]
+INFO:root:Waiting for SiteA-Devices table to be active.. [UPDATING]
+INFO:root:SiteA-Metrics-Daily active.
+INFO:root:Restore for SiteA-Metrics-Daily to SiteA-Metrics-Daily table completed. Time taken: 0:01:02
+INFO:root:SiteA-Metrics-Weekly active.
+INFO:root:Restore for SiteA-Metrics-Weekly to SiteA-Metrics-Weekly table completed. Time taken: 0:01:02
+INFO:root:Processing 0002.json of SiteA-Visits
+INFO:root:Sites active.
+INFO:root:Restore for Sites to Sites table completed. Time taken: 0:01:07
+INFO:root:SiteA-Devices active.
+INFO:root:Restore for SiteA-Devices to SiteA-Devices table completed. Time taken: 0:01:08
+INFO:root:Updating SiteA-Metrics-Hourly table read capacity to: 42, write capacity to: 5
+INFO:root:Waiting for SiteA-Metrics-Hourly table to be active.. [UPDATING]
+INFO:root:Waiting for SiteA-Metrics-Hourly table to be active.. [UPDATING]
+INFO:root:SiteA-Metrics-Hourly active.
+INFO:root:Restore for SiteA-Metrics-Hourly to SiteA-Metrics-Hourly table completed. Time taken: 0:01:45
+INFO:root:Processing 0003.json of SiteA-Visits
+INFO:root:Processing 0002.json of SiteA-Locations
+INFO:root:Processing 0004.json of SiteA-Visits
+INFO:root:Processing 0005.json of SiteA-Visits
+INFO:root:Processing 0006.json of SiteA-Visits
+INFO:root:Processing 0007.json of SiteA-Visits
+INFO:root:Updating SiteA-Visits table read capacity to: 20, write capacity to: 15
+INFO:root:Waiting for SiteA-Visits table to be active.. [UPDATING]
+INFO:root:SiteA-Visits active.
+INFO:root:Restore for SiteA-Visits to SiteA-Visits table completed. Time taken: 0:06:15
+INFO:root:Processing 0003.json of SiteA-Locations
+INFO:root:Processing 0004.json of SiteA-Locations
+INFO:root:Processing 0005.json of SiteA-Locations
+INFO:root:Processing 0006.json of SiteA-Locations
+INFO:root:Processing 0007.json of SiteA-Locations
+INFO:root:Processing 0008.json of SiteA-Locations
+INFO:root:Processing 0009.json of SiteA-Locations
+INFO:root:Processing 0010.json of SiteA-Locations
+INFO:root:Processing 0011.json of SiteA-Locations
+INFO:root:Processing 0012.json of SiteA-Locations
+INFO:root:Processing 0013.json of SiteA-Locations
+INFO:root:Processing 0014.json of SiteA-Locations
+INFO:root:Processing 0015.json of SiteA-Locations
+INFO:root:Processing 0016.json of SiteA-Locations
+INFO:root:Processing 0017.json of SiteA-Locations
+INFO:root:Processing 0018.json of SiteA-Locations
+INFO:root:Processing 0019.json of SiteA-Locations
+INFO:root:Processing 0020.json of SiteA-Locations
+INFO:root:Processing 0021.json of SiteA-Locations
+INFO:root:Processing 0022.json of SiteA-Locations
+INFO:root:Processing 0023.json of SiteA-Locations
+INFO:root:Processing 0024.json of SiteA-Locations
+INFO:root:Processing 0025.json of SiteA-Locations
+INFO:root:Processing 0026.json of SiteA-Locations
+INFO:root:Processing 0027.json of SiteA-Locations
+INFO:root:Processing 0028.json of SiteA-Locations
+INFO:root:Processing 0029.json of SiteA-Locations
+INFO:root:Processing 0030.json of SiteA-Locations
+INFO:root:Processing 0031.json of SiteA-Locations
+INFO:root:Processing 0032.json of SiteA-Locations
+INFO:root:Processing 0033.json of SiteA-Locations
+INFO:root:Processing 0034.json of SiteA-Locations
+INFO:root:Processing 0035.json of SiteA-Locations
+INFO:root:Processing 0036.json of SiteA-Locations
+INFO:root:Processing 0037.json of SiteA-Locations
+INFO:root:Processing 0038.json of SiteA-Locations
+INFO:root:Processing 0039.json of SiteA-Locations
+INFO:root:Processing 0040.json of SiteA-Locations
+INFO:root:Processing 0041.json of SiteA-Locations
+INFO:root:Processing 0042.json of SiteA-Locations
+INFO:root:Processing 0043.json of SiteA-Locations
+INFO:root:Processing 0044.json of SiteA-Locations
+INFO:root:Processing 0045.json of SiteA-Locations
+INFO:root:Processing 0046.json of SiteA-Locations
+INFO:root:Processing 0047.json of SiteA-Locations
+INFO:root:Processing 0048.json of SiteA-Locations
+INFO:root:Processing 0049.json of SiteA-Locations
+INFO:root:Processing 0050.json of SiteA-Locations
+INFO:root:Processing 0051.json of SiteA-Locations
+INFO:root:Processing 0052.json of SiteA-Locations
+INFO:root:Processing 0053.json of SiteA-Locations
+INFO:root:Processing 0054.json of SiteA-Locations
+INFO:root:Processing 0055.json of SiteA-Locations
+INFO:root:Processing 0056.json of SiteA-Locations
+INFO:root:Processing 0057.json of SiteA-Locations
+INFO:root:Processing 0058.json of SiteA-Locations
+INFO:root:Processing 0059.json of SiteA-Locations
+INFO:root:Processing 0060.json of SiteA-Locations
+INFO:root:Processing 0061.json of SiteA-Locations
+INFO:root:Processing 0062.json of SiteA-Locations
+INFO:root:Processing 0063.json of SiteA-Locations
+INFO:root:Processing 0064.json of SiteA-Locations
+INFO:root:Processing 0065.json of SiteA-Locations
+INFO:root:Processing 0066.json of SiteA-Locations
+INFO:root:Processing 0067.json of SiteA-Locations
+INFO:root:Processing 0068.json of SiteA-Locations
+INFO:root:Processing 0069.json of SiteA-Locations
+INFO:root:Processing 0070.json of SiteA-Locations
+INFO:root:Processing 0071.json of SiteA-Locations
+INFO:root:Processing 0072.json of SiteA-Locations
+INFO:root:Processing 0073.json of SiteA-Locations
+INFO:root:Processing 0074.json of SiteA-Locations
+INFO:root:Processing 0075.json of SiteA-Locations
+INFO:root:Processing 0076.json of SiteA-Locations
+INFO:root:Processing 0077.json of SiteA-Locations
+INFO:root:Processing 0078.json of SiteA-Locations
+INFO:root:Processing 0079.json of SiteA-Locations
+INFO:root:Processing 0080.json of SiteA-Locations
+INFO:root:Processing 0081.json of SiteA-Locations
+INFO:root:Processing 0082.json of SiteA-Locations
+INFO:root:Processing 0083.json of SiteA-Locations
+INFO:root:Processing 0084.json of SiteA-Locations
+INFO:root:Processing 0085.json of SiteA-Locations
+INFO:root:Processing 0086.json of SiteA-Locations
+INFO:root:Processing 0087.json of SiteA-Locations
+INFO:root:Processing 0088.json of SiteA-Locations
+INFO:root:Processing 0089.json of SiteA-Locations
+INFO:root:Processing 0090.json of SiteA-Locations
+INFO:root:Processing 0091.json of SiteA-Locations
+INFO:root:Processing 0092.json of SiteA-Locations
+INFO:root:Processing 0093.json of SiteA-Locations
+INFO:root:Processing 0094.json of SiteA-Locations
+INFO:root:Processing 0095.json of SiteA-Locations
+INFO:root:Processing 0096.json of SiteA-Locations
+INFO:root:Processing 0097.json of SiteA-Locations
+INFO:root:Processing 0098.json of SiteA-Locations
+INFO:root:Processing 0099.json of SiteA-Locations
+INFO:root:Processing 0100.json of SiteA-Locations
+INFO:root:Processing 0101.json of SiteA-Locations
+INFO:root:Processing 0102.json of SiteA-Locations
+INFO:root:Processing 0103.json of SiteA-Locations
+INFO:root:Processing 0104.json of SiteA-Locations
+INFO:root:Processing 0105.json of SiteA-Locations
+INFO:root:Processing 0106.json of SiteA-Locations
+INFO:root:Processing 0107.json of SiteA-Locations
+INFO:root:Processing 0108.json of SiteA-Locations
+INFO:root:Processing 0109.json of SiteA-Locations
+INFO:root:Processing 0110.json of SiteA-Locations
+INFO:root:Processing 0111.json of SiteA-Locations
+INFO:root:Processing 0112.json of SiteA-Locations
+INFO:root:Processing 0113.json of SiteA-Locations
+INFO:root:Processing 0114.json of SiteA-Locations
+INFO:root:Processing 0115.json of SiteA-Locations
+INFO:root:Processing 0116.json of SiteA-Locations
+INFO:root:Processing 0117.json of SiteA-Locations
+INFO:root:Processing 0118.json of SiteA-Locations
+INFO:root:Processing 0119.json of SiteA-Locations
+INFO:root:Processing 0120.json of SiteA-Locations
+INFO:root:Processing 0121.json of SiteA-Locations
+INFO:root:Processing 0122.json of SiteA-Locations
+INFO:root:Processing 0123.json of SiteA-Locations
+INFO:root:Processing 0124.json of SiteA-Locations
+INFO:root:Updating SiteA-Locations table read capacity to: 22, write capacity to: 13
+INFO:root:Waiting for SiteA-Locations table to be active.. [UPDATING]
+INFO:root:Waiting for SiteA-Locations table to be active.. [UPDATING]
+INFO:root:SiteA-Locations active.
+INFO:root:Restore for SiteA-Locations to SiteA-Locations table completed. Time taken: 13:29:52
+INFO:root:Restore of table(s) * to * completed!
+
