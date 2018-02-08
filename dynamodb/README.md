@@ -30,4 +30,4 @@ Then run import.sh
 
 ### Who do I talk to? ###
 
-llaverdure@realdecoy.com
+contact@luclaverdure.com
